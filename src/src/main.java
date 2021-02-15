@@ -17,7 +17,7 @@ public class main {
         if(deineZahl==7){
             System.out.println("Das ist meine Glückszahl");
         }
-        if((deineZahl>=10) && (deineZahl<=99) || (deineZahl<=-10)){
+        if((deineZahl>=10) && (deineZahl<=99) || (deineZahl<=-10) && (deineZahl>=-99)){
             System.out.println("Das ist ein zweistellige Zahl");
         }
     }
